@@ -127,7 +127,7 @@ const Renju = () => {
       cellInfoList.flat().forEach((item, index) => {
         const {positionX, positionY, value} = item;
         if (value) {
-          // drawChess(positionX, positionY, value);
+          drawChess(positionX, positionY, value);
         }
       });
     }
