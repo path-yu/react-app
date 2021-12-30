@@ -1,0 +1,22 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+.center{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+}
+p{
+ margin: 0;
+ padding: 0; 
+}
+.Home>a {
+  text-decoration: none;
+  color: hotpink;
+}
